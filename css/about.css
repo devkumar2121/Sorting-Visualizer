@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background: #000; */
+}
+
+
+/* top bar css */
+
+#top-bar {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid rebeccapurple; */
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    z-index: -1;
+}
+
+
+/* bottom bar css */
+
+#bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #000;
+    /* border: 1px solid rebeccapurple; */
+}
+
+
+/* left bar css */
+
+#left-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+    background: #000;
+}
+
+
+/* right bar css */
+
+#right-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    background: #000;
+}
+
+#logo {
+    font-family: 'Stick', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 45px;
+}
+
+
+/*  top-bar.. algovisual's anchor tag */
+
+a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 25px;
+    font-weight: 500;
+}

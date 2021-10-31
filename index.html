@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>AlgoVisual</title>
+    <!-- Fonts which are used  -->
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <!-- CSS for style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- top bar -->
+    <div id="top-bar">
+        <a href="#" id="logo">
+            ALGO
+            <span style="color: rgb(254,197,21);">VISUAL</span>
+        </a>
+        <div id="top-actions-show" class="top-panel-show">
+            <p class="p1" onclick="generate()">Create</p>
+        </div>
+        <div id="actions-hide" class="top-panel-hide">
+            <button class="btn" onclick="panelhide()">btn</button>
+        </div>
+    </div>
+
+    <!-- view of array height and size,random array -->
+    <section class="array-container"></section>
+
+
+
+    <div id="bottom-bar">
+        <span id="sort-name">
+            <a href="#" id="selection" class="selected-viz" title="Selection Sort" onclick="SelectionSort(),disable1()" >selection sort</a>
+            <a href="#" class="selected-viz" title="Bubble Sort" onclick="BubbleSort()"  id="bubble" >bubble sort</a>
+            <a href="#" id="insertion" class="selected-viz" title="Insertion Sort" onclick="InsertionSort()">insertion sort</a>
+        </span>
+        <span class="about"><a href="About.html" target="_blank">About-Us</a></span>
+    </div>
+    <div id="right-bar">
+        <div id="myprogress">
+            <div id="mybar">
+                <span id="incvalue"></span>
+            </div>
+        </div>
+    </div>
+    <div id="left-bar">
+        <div id="left-panel-show" class="left-panel-show"></div>
+        <div id="left-panel-hide" class="left-panel-hide">
+            <button class="btn" onclick="leftpanelhide()">btn</button>
+        </div>
+        <div id="left-panel2-hide" class="left-panel2-hide">
+            <button class="btn" onclick="leftpanelhide2()">btn</button>
+        </div>
+        <div id="left-panel2-show" class="left-panel2-show"></div>
+    </div>
+
+    <!-- JavaScript-->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
